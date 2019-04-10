@@ -1,0 +1,157 @@
+/*
+* Definitly looking to save my eyes here.
+*/
+Body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div,
+#login,
+#login>form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#chat ul {
+  height: 90vh;
+  list-style-type: none;
+  overflow-y: scroll;
+}
+
+#chat ul li {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 94vw;
+  background-color: #eeeeee25;
+  padding: 10px 20px;
+  margin: 5px 5px 5px -35px;
+}
+
+#chat ul li button {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  color: #c0c0c0;
+  right: 0;
+  top: 0;
+}
+
+#chat ul li button:hover {
+  color: #f00;
+  cursor: pointer;
+}
+
+#login {
+  height: 100vh;
+}
+
+#login input {
+  width: 250px;
+  height: 25px;
+  padding-left: 1em;
+  margin-bottom: 1em;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+#enter {
+  width: 264px;
+  height: 25px;
+  margin-top: 1em;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+#enter:hover {
+  border: 1px solid #0f0;
+  color: #0f0;
+  cursor: pointer;
+}
+
+#message {
+  width: 85vw;
+  height: 5vh;
+  padding-left: 1em;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+#chat form button {
+  width: 5vw;
+  height: 5vh;
+  margin-left: 0.8em;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+#chat form button:hover {
+  border: 1px solid #f00;
+  color: #f00;
+  cursor: pointer;
+}
+
+#blacklist {
+  display: none;
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+#blacklistedUsers {
+  height: 85vh;
+  list-style-type: none;
+  overflow-y: scroll;
+}
+
+#blacklistedUsers li {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 94vw;
+  background-color: #eeeeee25;
+  padding: 10px 20px;
+  margin: 5px 5px 5px -35px;
+}
+
+#blacklistedUsers li button {
+  background-color: transparent;
+  border: none;
+  color: #c0c0c0;
+  font-size: 1em;
+}
+
+#blacklistedUsers li button:hover {
+  color: #f00;
+  cursor: pointer;
+}
+
+#closeBlacklist {
+  width: 5vw;
+  height: 5vh;
+  margin-left: 0.8em;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+#closeBlacklist:hover {
+  border: 1px solid #f00;
+  color: #f00;
+  cursor: pointer;
+}

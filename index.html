@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Messenger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="messenger.js"></script>
+</head>
+<body>
+    <div id="login">
+        <h1>Connection</h1>
+        <form>
+            <input type="email" id="email" placeholder="mail@fai.com">
+            <input type="password" id="pwd" placeholder="password">
+            <!-- <input type="text" id="nickname" placeholder="Nickname"> -->
+            <button type="button" id="enter">Enter Chat Room</button>
+        </form>
+    </div>
+    <div id="chat"></div>
+    <div id="blacklist">
+        <h2>blacklist</h2>
+        <ul id='blacklistedUsers'></ul>
+        <button id="closeBlacklist">close blacklist</button>
+    </div>
+</body>
+</html>
